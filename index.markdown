@@ -24,5 +24,4 @@ In the future, I'm hoping to work for a small game development company where I c
 * php
 * MySQL & SQLite
 
-![Temporary Bio Image](https://github.com/chelmi5/chelmi5.github.io/blob/master/img/faceq.jpg?raw=true)
-
+![Temporary Bio Image](http://chelmi5.github.io/img/faceq.jpg)

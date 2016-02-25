@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
+
+/* Bio */
+.tempbioimg
+{
+  height: 200px;
+  width: 200px;
+}
+
+.bio
+{
+  padding-top: 5em;
+  margin: 10em;
+}
+
+.bio p
+{
+  float: left;
+  width: 100%;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+/* Layout Bio */
+.a {
+  float:left;
+  width: 40%;
+  margin-right: 2%;
+}
+
+.bioparagraph{
+  float: left;
+  width: 55%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.edu {
+  clear:both;
+}
+
+/* Navigation */
+nav 
+{
+  background: #47803b;
+  background: #18184c;
+}
+nav a
+{
+  color: #A8BFCD;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation {
+   background: #47803b;
+   background: #18184c;
+   
+   position: fixed;
+   top: 10px;
+   z-index: 1;
+   
+   width: 95%;
+   height: 100px;
+   margin: 0 auto;
+}
+
+/* Main */
+
+body
+{
+  background: #A8BFCD;
+  background-image: url("https://raw.githubusercontent.com/chelmi5/chelmi5.github.io/master/img/bg1.png");
+  color: #A8BFCD;
+  
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+p {
+  font-family: 'VT323', ;
+  font-family: 'Share Tech Mono', ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 1.75em;
+}
+
+h3 {
+  font-family: 'VT323', sans-serif;
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 1.5em;
+}
+
+li {
+  font-family: 'VT323', ;
+  font-family: 'Share Tech Mono', ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+}

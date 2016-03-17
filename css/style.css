@@ -1,25 +1,257 @@
-/* Main Stylesheet */
+@import url(https://fonts.googleapis.com/css?family=VT323);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
-/* Global Styling */
-body {
-  background: lightblue;
+/* Bio */
+.tempbioimg
+{
+  height: 200px;
+  width: 200px;
 }
 
-img {
+.bio
+{
+  padding-top: 5em;
+  margin: 10em;
+}
+
+.bio p
+{
+  float: left;
+  width: 100%;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+/* Layout Bio */
+.a {
+  float:left;
+  width: 40%;
+  margin-right: 2%;
+}
+
+.bioparagraph{
+  float: left;
+  width: 55%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.edu {
+  clear:both;
+}
+
+
+/* Navigation */
+nav 
+{
+  background: #47803b;
+  background: #18184c;
+}
+
+nav a
+{
+  padding:10px;
+  float:right;
+  color: #A8BFCD;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+   background: seagreen;
+   border-right: 5px solid #000;
+   margin-right: 10px;
+   transition: background .5s, border-right .25s, margin-right .25s;
+}
+
+.navigation {
+   background: #47803b;
+   background: #18184c;
+   
+   position: fixed;
+   top: 10px;
+   z-index: 1;
+   
+   width: 95%;
+   height: 120px;
+   margin: 0 auto;
+}
+
+/* Portfolio */
+/* Inspired by http://codepen.io/npsantini/pen/jPyBVx?editors=0100 */
+
+.lb {
+	display: none;
+	position: fixed!important;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  background: rgba(14,14,45,0.8); 
+  text-align:center;
+  text-decoration: none;
+  
+  transition: opacity .5s ease-in;
+}
+
+.lb img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lb:target {
+	outline: none;
+	display: block;
+}
+
+a.lb:hover {
+  cursor:default;
+  background: rgba(14,14,45,0.8); 
+}
+img:hover {cursor:pointer;}
+
+#portfolio .thumb_img
+{
+  align:left;
+  width: 90%;
+  padding: 2%;
+  margin: 1em;
+}
+
+.thumb_a
+{
+  float:left;
+  text-decoration: none;
   width: 50%;
+}
+
+a figcaption
+{
+  text-align: center;
+  color: #A8BFCD;
+  margin: 2em;
+  opacity: 1;
+  bottom: -30px;
+  width: 80%;
+}
+
+.footer
+{
+  clear: both;
+}
+
+/* Main */
+
+body
+{
+  background: #A8BFCD;
+  background-image: url("https://raw.githubusercontent.com/chelmi5/chelmi5.github.io/master/img/bg1.png");
+  color: #A8BFCD;
+  
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Contact */
+
+label, input, textarea {
+   display: block;
+   margin: 1em;
+}
+
+input[type="text"] {
+/*    background: blue; */
+   border: 0;
+   padding: 1em;
+   border-radius: 5px;
+}
+
+input[type="email"] {
+/*    background: red; */
+   border: 0;
+   padding: 1em;
+   border-radius: 5px;
+   width: 30%;
+}
+
+:focus {
+   background: rgba(14,14,45,0.8);
+   transition: background .25s;
 }
 
 /* Typography */
 
+p, figcaption {
+  font-family: 'VT323', ;
+  font-family: 'Share Tech Mono', ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+  text-shadow: 0 1px 0 #ccc,
+}
+
 h1 {
-  color: teal;
-  text-transform: uppercase;
-  letter-spacing: 8px;
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 2em;
+  text-shadow: 0 1px 0 #ccc,
 }
 
 h2 {
-  color: teal;
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 1.75em;
+  text-shadow: 0 1px 0 #ccc,
 }
 
-/* Homepage */
-/* Resume */
+h3 {
+  font-family: 'VT323', sans-serif;
+  font-family: 'Share Tech Mono', sans-serif ;
+  font-size: 1.5em;
+  text-shadow: 0 1px 0 #ccc,
+}
+
+li {
+  font-family: 'VT323', ;
+  font-family: 'Share Tech Mono', ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+  text-shadow: 0 1px 0 #ccc,
+}
+
+/* Mobile Media Query */
+@media screen and (max-width: 900px) {
+  
+  .bio
+  {
+    text-align: center;
+  }
+  
+  /* Nav */
+  nav {
+    float: none;
+    width: 100%;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav li {
+    list-style: none;
+    width: 100%;
+  }
+  
+  /*  Columns  */
+  .a, .bioparagraph {
+    float: none;
+    width: 100%;
+  }
+  
+}

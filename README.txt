@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/chelmi5/pen/MKmwZz.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/chelmi5/pen/zrZoNb.
 
- Bio, edu, work, skillset, img
+ Version 1.0 Homepage

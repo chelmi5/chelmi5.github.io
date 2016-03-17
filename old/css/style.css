@@ -1,0 +1,25 @@
+/* Main Stylesheet */
+
+/* Global Styling */
+body {
+  background: lightblue;
+}
+
+img {
+  width: 50%;
+}
+
+/* Typography */
+
+h1 {
+  color: teal;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+h2 {
+  color: teal;
+}
+
+/* Homepage */
+/* Resume */

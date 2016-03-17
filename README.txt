@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/chelmi5/pen/zrZoNb.
+Chelsea Davis Portfolio Website created at CodePen.io.
 
- Version 1.0 Homepage
+Version 4.something Homepage
+
+Inspiration for the portfolio section from http://codepen.io/npsantini/pen/jPyBVx
